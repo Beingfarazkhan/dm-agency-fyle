@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div class="container hero">
+      <div class="row hero-section justify-content-center align-items-center">
+        <div class="col-md-6 hero-text">
+          <h5 class="hero-subheading">AWARD WINNING</h5>
+          <h1 class="hero-heading">DIGITAL MARKETING AGENCY</h1>
+          <p class="hero-paragraph">
+            Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+            Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed
+            lacus nec risus finibus feugiat et fermentum
+          </p>
+          <button
+            class="btn btn-danger bounce-to-right"
+            data-bs-toggle="modal"
+            data-bs-target="#contactModal"
+          >
+            CONTACT US
+          </button>
+        </div>
+        <div class="col-md-6 hero-image-container">
+          <img
+            src="./assets/hero.png"
+            alt="Digital Marketing"
+            class="hero-image grow"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Talk to us</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form
+              id="contactForm"
+              action="https://getform.io/f/bwngnjxa"
+              method="POST"
+            >
+              <div class="mb-3">
+                <label for="workEmail" class="form-label">Work email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="workEmail"
+                  name="workEmail"
+                  placeholder="Work Email*"
+                  required
+                />
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="firstName" class="form-label">First name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="First Name*"
+                    required
+                  />
+                </div>
+                <div class="col">
+                  <label for="lastName" class="form-label">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Last Name*"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="agreeTerms"
+                  name="agreeTerms"
+                  required
+                />
+                <label class="form-check-label" for="agreeTerms"
+                  >I agree to Fyle's terms and conditions, and provide consent
+                  to send me communication.</label
+                >
+              </div>
+              <button type="submit" class="btn btn-danger w-100">
+                Contact Us
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Of Hero Section -->
+
+    <!-- Service Section -->
+    <div class="service-container">
+      <div class="container mt-5">
+        <h5 class="service-subheading">WHAT WE DO</h5>
+        <div class="service-wrapper">
+
+            <h2 class="service-heading">SERVICES PROVIDE FOR YOU</h2>
+            <p class="service-description">
+                Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus
+                nec risus finibus feugiat et fermentum
+            </p>
+        </div>
+
+        <div class="slider-container mt-5">
+          <div class="slider">
+            <!-- Slides will be dynamically inserted here -->
+          </div>
+        </div>
+        <div class="dots"></div>
+      </div>
+    </div>
+    <!-- End Of Service Section -->
+
+    <!-- Why Choose Us? -->
+
+    <div class="container">
+      <h5 class="why-choose-us-subheading">WHY CHOOSE US</h5>
+      <h2 class="why-choose-us-heading">WHY WE ARE BEST</h2>
+
+      <div class="why-choose-us">
+        <div class="features">
+          <div class="feature-item" data-image="vision-image">
+            <img
+              src="./assets/clarifiedvision.svg"
+              alt="Target Icon"
+              class="feature-icon"
+            />
+            <h3>Clarified Vision & Target</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy.
+            </p>
+          </div>
+          <div class="feature-item" data-image="performance-image">
+            <img
+              src="./assets/highperformance.svg"
+              alt="Performance Icon"
+              class="feature-icon"
+            />
+            <h3>High Performance</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy.
+            </p>
+          </div>
+          <div class="feature-item" data-image="security-image">
+            <img
+              src="./assets/maintainsecurity.svg"
+              alt="Security Icon"
+              class="feature-icon"
+            />
+            <h3>Maintain Security</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy.
+            </p>
+          </div>
+          <div class="feature-item" data-image="strategy-image">
+            <img
+              src="./assets/betterstrategy.svg"
+              alt="Strategy Icon"
+              class="feature-icon"
+            />
+            <h3>Better Strategy & Quality</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Of Why Choose Us? -->
+
+    <!-- Our Project -->
+    <section class="our-project container my-5">
+        <h5 class="our-project-subheading">OUR PROJECT</h5>
+        <h2 class="our-project-heading">WHY WE ARE BEST</h2>
+        <div class="row">
+          <div class="col-md-8 mb-4 mb-md-0">
+            <img id="project-image" src="./assets//project-1.png" alt="Project Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-3">
+            <div class="project-items">
+              <div class="project-item active" data-image="./assets//project-1.png">
+                <h6>Genderless Kei - Japan's Hot</h6>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+              <div class="project-item" data-image="./assets//project-2.png">
+                <h6>Better Strategy & Quality</h6>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+              <div class="project-item" data-image="./assets//project-3.png">
+                <h6>Genderless Kei - Japan's Hot</h6>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- End Of Our Project -->
+
+    <!-- Our Growth -->
+
+    <div class="company-growth-wrapper">
+    <section class="company-growth container my-5">
+        <h5 class="company-growth-subheading">EXPERTS GROWTH</h5>
+        <h2 class="company-growth-heading">OUR COMPANY GROWTH</h2>
+        
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="growth-card">
+              <div class="icon-wrapper">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h3 class="mt-3">199+</h3>
+              <p>Statisfied Customers</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="growth-card">
+              <div class="icon-wrapper">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3 class="mt-3">1591+</h3>
+              <p>Days Of Operation</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="growth-card">
+              <div class="icon-wrapper">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <h3 class="mt-3">283+</h3>
+              <p>Complete Project</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="growth-card">
+              <div class="icon-wrapper">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <h3 class="mt-3">75+</h3>
+              <p>Win Awards</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End Of Our Growth -->
+
+    <!-- Clients Feedback -->
+    <section class="clients-feedback container-fluid my-5">
+        <div class="container">
+          <h6 class="clients-feedback-subheading">CLIENT'S FEEDBACK</h6>
+          <h2 class="clients-feedback-heading mb-5">PEOPLE SAY'S ABOUT US !</h2>
+          
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="testimonial text-center">
+                <i class="fas fa-quote-left fa-3x text-muted mb-3"></i>
+                <p class="lead mb-4">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                <h5 class="font-weight-bold mb-1 client-name">JANNAT TUMPA</h5>
+                <p class="text-muted">COO, AMERIMAR ENTERPRISES, INC.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </section>
+
+        <div class="clients-feedback-wrapper">
+            <img src="./assets/clients.jpeg" alt="Clients Feedback" class="img-fluid">
+        </div>
+        
+    <!-- End Of Clients Feedback -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
